@@ -1,0 +1,58 @@
+body{
+    background-image: url('loginpic.jpg');
+}
+.space{
+    display:block;
+    align-self:center;
+    margin-top:50px;
+    margin:auto;
+    height: 50px;
+  width: 60%
+
+}
+.form-class{
+    padding:20px;
+    display:block;
+    align-self:center;
+    margin-top:50px;
+    margin:auto;
+    height: 600px;
+  width: 60%;
+  border:1px solid black;
+  background-color: white;
+}
+
+.multipleSelection { 
+    width: 300px; 
+    background-color: #BCC2C1; 
+} 
+
+.selectBox { 
+    position: relative; 
+} 
+
+.selectBox select { 
+    width: 100%; 
+    font-weight: bold; 
+} 
+
+.overSelect { 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    top: 0; 
+    bottom: 0; 
+} 
+
+#checkBoxes { 
+    display: none; 
+    border: 1px #8DF5E4 solid; 
+} 
+
+#checkBoxes label { 
+    display: block; 
+} 
+
+#checkBoxes label:hover { 
+    background-color:wheat; 
+} 
